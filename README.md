@@ -50,11 +50,11 @@ cat < file2
 
 
 # Comparing Files
-cmp file1 file2
+### cmp file1 file2
 ![alt text](<Screenshots/Screenshot from 2024-08-22 08-33-34.png>)
 ## OUTPUT
  
-comm file1 file2
+### comm file1 file2
 ![alt text](<Screenshots/Screenshot from 2024-08-22 08-34-22.png>)
  ## OUTPUT
 
