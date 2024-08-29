@@ -60,10 +60,11 @@ cat < file2
 
  
 diff file1 file2
+![alt text](<Screenshot from 2024-08-29 14-58-26.png>)
 ## OUTPUT
 
 
-#Filters
+### Filters
 
 ### Create the following files file11, file22 as follows:
 
@@ -83,64 +84,75 @@ cat > file22
 
 
 cut -c1-3 file11
+![alt text](<Screenshot from 2024-08-29 15-02-20.png>)
 ## OUTPUT
 
 
 
 
 cut -d "|" -f 1 file22
+![alt text](<Screenshot from 2024-08-29 15-03-18.png>)
 ## OUTPUT
 
 
 
 cut -d "|" -f 2 file22
+![alt text](<Screenshot from 2024-08-29 15-04-16.png>)
 ## OUTPUT
 
 
-cat < newfile 
+cat > newfile
 ```
 Hello world
 hello world
 ^d
 ````
-cat > newfile 
-Hello world
-hello world
+ 
+cat < newfile 
+![alt text](<Screenshot from 2024-08-29 15-06-51.png>)
  
 grep Hello newfile 
+![alt text](<Screenshot from 2024-08-29 15-08-49.png>)
 ## OUTPUT
 
 
 
 grep hello newfile 
+![alt text](<Screenshot from 2024-08-29 15-08-08.png>)
 ## OUTPUT
 
 
 
 
 grep -v hello newfile 
+![alt text](<Screenshot from 2024-08-29 15-09-51.png>)
 ## OUTPUT
 
 
 
 cat newfile | grep -i "hello"
+![alt text](<Screenshot from 2024-08-29 15-11-34.png>)
 ## OUTPUT
 
 
 
 
 cat newfile | grep -i -c "hello"
+![alt text](<Screenshot from 2024-08-29 15-12-45.png>)
 ## OUTPUT
 
 
 
 
 grep -R ubuntu /etc
+![alt text](<Screenshot from 2024-08-29 15-16-04.png>)
+
 ## OUTPUT
 
 
 
 grep -w -n world newfile   
+![alt text](<Screenshot from 2024-08-29 15-14-57.png>)
 ## OUTPUT
 
 
