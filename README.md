@@ -601,9 +601,9 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ![alt text](image-27.png)
-##OUTPUT
+## OUTPUT
 
-# check if a file
+### check if a file
 cat > ifnested.sh 
 ```bash
 \#!/bin/bash
